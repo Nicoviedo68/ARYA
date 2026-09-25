@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05080f">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="ARYA — CRM omnicanal personal de Nicolas Cortes Oviedo. Inbox WhatsApp, Facebook e Instagram, clientes, n8n y agentes de IA.">
+  <title>ARYA — CRM omnicanal</title>
+  <script>document.documentElement.setAttribute('data-theme', 'dark');</script>
+  <link rel="icon" href="public/assets/img/favicon.ico" type="image/x-icon" sizes="any">
+  <link rel="icon" href="public/assets/img/arya-logo.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="public/assets/img/arya-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="public/assets/img/arya-logo.png">
+  <link rel="stylesheet" href="public/assets/css/app.css?v=pages1">
+  <style>
+    .auth-shell--crm-only { grid-template-columns: 1.05fr 0.95fr; }
+    .auth-modules { display: grid; gap: 0.55rem; margin: 1.15rem 0 1.35rem; }
+    .auth-module {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.72rem 0.85rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: rgba(5, 8, 15, 0.35);
+    }
+    .auth-module strong {
+      display: block;
+      font-size: 0.86rem;
+      font-weight: 650;
+      color: var(--text-primary);
+    }
+    .auth-module span {
+      display: block;
+      margin-top: 0.15rem;
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+    }
+    .auth-actions { display: grid; gap: 0.65rem; }
+    .auth-actions .btn { text-align: center; text-decoration: none; }
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      border-radius: 10px;
+      border: 1px solid var(--border-gold);
+      color: #d8c49a;
+      background: rgba(197, 160, 89, 0.06);
+      font-weight: 650;
+    }
+    .btn-ghost:hover { background: rgba(197, 160, 89, 0.12); }
+    @media (max-width: 900px) {
+      .auth-shell--crm-only { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="auth-body" data-auth-fixed-theme="dark">
+  <div class="auth-atmosphere" aria-hidden="true"></div>
+  <div class="auth-page">
+    <div class="auth-shell auth-shell--crm-only" id="authShell">
+      <aside class="auth-visual">
+        <div class="auth-visual-glow" aria-hidden="true"></div>
+        <div class="auth-visual-grid" aria-hidden="true"></div>
+        <div class="auth-visual-content">
+          <div class="auth-hero-logo">
+            <span class="auth-hero-aura" aria-hidden="true"></span>
+            <span class="auth-hero-ring" aria-hidden="true"></span>
+            <img src="public/assets/img/arya-logo.png" alt="Arya" width="512" height="512" decoding="async" fetchpriority="high">
+          </div>
+          <div class="auth-hero-copy">
+            <p class="auth-hero-mark">ARYA</p>
+            <div class="auth-hero-modes">
+              <p class="auth-hero-mode auth-hero-mode--crm">CRM</p>
+              <p class="auth-hero-mode auth-hero-mode--ocp">OCP</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="auth-panel">
+        <div class="auth-panel-inner">
+          <header class="auth-panel-header">
+            <p class="auth-panel-eyebrow">Nicolas Cortes Oviedo</p>
+            <h1>ARYA</h1>
+            <p class="auth-panel-lead">CRM omnicanal personal para gestionar clientes, conversaciones e inteligencia comercial en un solo lugar.</p>
+          </header>
+
+          <div class="auth-modules">
+            <div class="auth-module">
+              <div>
+                <strong>Omnicanalidad</strong>
+                <span>Inbox WhatsApp, Facebook, Instagram, web y email.</span>
+              </div>
+            </div>
+            <div class="auth-module">
+              <div>
+                <strong>Automatización</strong>
+                <span>Tareas n8n, agentes de IA, Meta y OpenAI.</span>
+              </div>
+            </div>
+            <div class="auth-module">
+              <div>
+                <strong>Operación comercial</strong>
+                <span>Clientes, informes, generador de contenido y dashboard.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="auth-actions">
+            <a class="btn btn-primary btn-block auth-submit" href="https://github.com/Nicoviedo68/ARYA">Ver repositorio</a>
+            <a class="btn-ghost" href="https://nicoviedo68.github.io/Personal/">Ver CV personal</a>
+          </div>
+
+          <p class="auth-copyright">
+            <a href="https://nicoviedo68.github.io/Personal/" target="_blank" rel="noopener noreferrer">
+              © 2026 Nicolas Cortes Oviedo. Todos los derechos reservados.
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

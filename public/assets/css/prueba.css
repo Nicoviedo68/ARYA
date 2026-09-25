@@ -1,3 +1,8 @@
+#authView[hidden],
+#appView[hidden] {
+  display: none !important;
+}
+
 .auth-shell--crm-only { grid-template-columns: 1.05fr 0.95fr; }
 @media (max-width: 900px) { .auth-shell--crm-only { grid-template-columns: 1fr; } }
 

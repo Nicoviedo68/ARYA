@@ -1,0 +1,20 @@
+{
+    "name": "asellerator/arya-crm",
+    "description": "Arya CRM — Plataforma omnicanal de gestión comercial",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arya\\": "app/"
+        },
+        "files": [
+            "app/Helpers/functions.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

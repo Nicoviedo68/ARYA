@@ -1,0 +1,12 @@
+RewriteEngine On
+AcceptPathInfo On
+
+# Subcarpeta en producción (app.aisscol.com/Arya/public)
+RewriteBase /Arya/public/
+
+# Si el archivo o directorio existe, servirlo
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Enviar todo a index.php CON path info (funciona aunque falle el rewrite limpio)
+RewriteRule ^(.*)$ index.php/$1 [QSA,L]

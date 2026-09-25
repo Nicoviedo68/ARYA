@@ -2,7 +2,7 @@
 
 CRM omnicanal en PHP 8.2+ con arquitectura MVC ligera, listo para conectar a Supabase y N8N.
 
-**En línea:** [https://nicoviedo68.github.io/ARYA/](https://nicoviedo68.github.io/ARYA/)
+**En línea (dashboard):** [https://nicoviedo68.github.io/ARYA/](https://nicoviedo68.github.io/ARYA/)
 
 ## Módulos
 
